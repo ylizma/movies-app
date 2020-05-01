@@ -1,6 +1,6 @@
 <template>
     <div class="border-b border-gray-800">
-        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-4 py-6">
+        <div class="container mx-auto flex flex-col sm:flex-row items-center justify-between px-4 py-6">
             <ul class="flex flex-col sm:flex-row items-center">
                 <li>
                     <a href="">moviesapp</a>
