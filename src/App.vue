@@ -1,7 +1,7 @@
 <template>
-  <div id="app" class="font-sans bg-gray-900 text-white h-screen">
+  <div id="app" class="font-sans bg-gray-900 text-white ">
     <navbar />
-    <router-view class="bg-gray-900 " />
+    <router-view class=""/>
   </div>
 </template>
 
