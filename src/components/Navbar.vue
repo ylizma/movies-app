@@ -1,19 +1,19 @@
 <template>
     <div class="border-b border-gray-800">
         <div class="container mx-auto flex flex-col sm:flex-row items-center justify-between px-4 py-6">
-            <ul class="flex flex-col sm:flex-row items-center">
+            <ul class="flex flex-col sm:flex-row items-center uppercase">
                 <li>
                     <a href="">moviesapp</a>
                 </li>
                 <li class="sm:ml-16 mt-2 sm:mt-0">
-                    <a href="" class="hover:text-gray-700">
+                    <router-link to="/" class="hover:text-gray-700 ">
                         movies
-                    </a>
+                    </router-link>
                 </li>
                 <li class="sm:ml-6 mt-2 sm:mt-0">
-                    <a href="" class="hover:text-gray-700">
+                    <router-link to="/tv" class="hover:text-gray-700">
                         Tv shows
-                    </a>
+                    </router-link >
                 </li>
             </ul>
             <div class="flex flex-col sm:flex-row items-center">
